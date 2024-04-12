@@ -1,0 +1,126 @@
+
+
+.user-profile-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #242743;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color:white;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: calc(100% - 12px);
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color:white;
+  background-color: #242743;
+}
+
+.form-group option.selected{
+  /* background-color: #141625; */
+
+}
+
+.skills-select {
+  height: 100px;
+}
+
+.selected-skills-container {
+  margin-top: 10px;
+}
+
+.delete-skill-button {
+  margin-right: 5px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.selected-skills-div{
+  display: flex;
+  flex-direction: row;
+  color:white;
+}
+#selected-skills{
+  width:200px;
+}
+.skill-delete{
+  height:35px;;
+  width:auto;
+  color:red;
+}
+
+.selected-skills-container{
+  width:90%;
+  margin:auto;
+  display: flex;
+  /* flex-direction: row; */
+  gap:1rem;
+  flex-wrap: wrap;
+
+}
+.submit-button-container{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.submit-button{
+  background: transparent linear-gradient(90deg, #e500ff, #8200ff) repeat scroll 0 0;
+  display:flex;
+  align-items: center;
+border-radius: 350px;
+width: 200px;
+box-shadow: 0 10px 60px 0 rgba(103, 0, 255, 0.4);
+
+font-family: "Alegreya SC", serif;
+
+font-style: normal;
+color: #fff;
+
+height: auto;
+letter-spacing: 2px;
+padding: 0.5rem;
+text-align: center;
+
+justify-content: center;
+text-decoration: none;
+transition: all 0.5s ease;
+visibility: visible;
+white-space: normal;
+}

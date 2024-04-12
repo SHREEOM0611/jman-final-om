@@ -1,0 +1,112 @@
+.admin-form-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  padding: 1.25rem;
+  border-width: 1px;
+  background-color: #242743;
+  border-radius: 0.25rem;
+  /* justify-content: center;
+  align-items: center; */
+}
+.create-event-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.create-event-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* position: relative; */
+  /* text-align: center; */
+}
+
+/* Heading */
+.admin-form-container h1 {
+  font-family: "Alegreya SC", serif;
+  font-size: 4rem;
+  font-weight: 800;
+  font-style: normal;
+  color: white;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.activity-title {
+  font-family: "Alegreya SC", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  font-style: normal;
+}
+
+/* Form elements */
+.admin-form-container .create-event-container .event-container-left,
+.event-container-right label {
+  display: block;
+  font-weight: 500;
+  color: #fff;
+}
+
+.create-event-input-field,
+.create-event-textarea-field {
+  width: 100%;
+  padding: 0.5rem;
+  border-width: 1px;
+  border-radius: 0.5rem;
+  background-color: #141625;
+}
+
+.create-event-textarea-field {
+  resize: vertical;
+  height: 215px;
+}
+
+.create-event-input-field:focus,
+.create-event-textarea-field:focus {
+  outline: none;
+  border-color: #e500ff;
+}
+
+.create-event-submit-button {
+  width: 300px;
+
+  background: transparent linear-gradient(90deg, #e500ff, #8200ff) repeat scroll
+    0 0;
+  border-radius: 300px;
+  padding: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.event-container-right {
+  width: 40%;
+}
+
+.event-container-left {
+  width: 40%;
+}
+
+.create-event-input-field {
+  color: white;
+}
+
+/* Grid layout for form elements */
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gap-4 > * {
+  margin-top: 0.75rem;
+}

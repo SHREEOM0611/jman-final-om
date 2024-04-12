@@ -1,0 +1,54 @@
+.admin-event-page-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    /* width: 1200px;
+    height: 700px; */
+    padding: 3rem;
+    background-color: #242743;
+}
+.admin-event-main-container{
+    width:100%;
+    display:flex;
+    margin-bottom: 2rem;
+    /* flex-direction: ; */
+}
+
+.admin-event-image-container{
+    width:60%;
+}
+.learning-image{
+    width:90%;
+}
+.admin-event-details{
+    width: 90%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.description-heading{
+    font-size: 2rem;
+    color:white;
+}
+.users-interested-container{
+    margin:1rem;
+}
+
+.description-container{
+    margin:1rem;
+}
+
+.admin-event-detail-container{
+    
+margin-top:10%;
+margin-left:5%;
+}
+
+.admin-event-detail-container .event-info{
+width:90%;
+margin-top: 3rem;;
+}

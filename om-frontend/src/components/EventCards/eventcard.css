@@ -1,0 +1,37 @@
+/* .card-icon {
+  color: #e500ff;
+} */
+
+.event-image-container {
+  /* width:100%; */
+  height: 140px;
+}
+.event-image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.media-card {
+  width: 300px;
+}
+#cards {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: #242743;
+}
+
+.event-card {
+  width: 300px;
+}
+
+.event-image-container {
+  /* width: 300px; */
+  height: 140px;
+  overflow: hidden;
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+}

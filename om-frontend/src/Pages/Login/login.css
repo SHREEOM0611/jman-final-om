@@ -1,0 +1,165 @@
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141625;
+}
+
+.main-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 900px;
+  height: 500px;
+  background-color: #242743;
+  padding: 3rem;
+}
+
+.login-form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-heading {
+  font-family: "Alegreya SC", serif;
+  font-size: 4rem;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  /* font-size: 1.5rem; */
+  margin-bottom: 1rem;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 300px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #141625;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+  background: transparent linear-gradient(90deg, #e500ff, #8200ff) repeat scroll
+    0 0;
+  border-radius: 300px;
+  width: 100%;
+  box-shadow: 0 10px 60px 0 rgba(103, 0, 255, 0.4);
+
+  font-family: "Alegreya SC", serif;
+
+  font-style: normal;
+  color: #fff;
+
+  height: auto;
+  letter-spacing: 2px;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  visibility: visible;
+  white-space: normal;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+.login-form input{
+  color:white;
+}
+
+.image-container {
+  width: 70%;
+}
+
+.learning-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+.go-homepage{
+  /* height:500px; */
+  width:300px;
+  color:white;
+  height:50px;
+}
+.already-logged-in-container{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logged-in-message{
+  color:white;
+  font-size: 4rem;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../../fonts/RolexLight.woff2");
+}
+
+/* --------------------------- MOBILE VERSION ------------------------------ */
+@media only screen and (max-width: 700px) {
+  .main-container {
+    margin: 0;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .login-form-container,
+  .image-container {
+    width: 90%;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .login-form {
+    max-width: none;
+  }
+}
+
+/* -------------------- TABLET OPTIMIZATION -------------------- */
+@media only screen and (min-width: 701px) and (max-width: 900px) {
+  .main-container {
+    height: 100vh;
+  }
+  .login-form-container {
+    padding: 2rem;
+  }
+  .login-input {
+    width: 100%;
+    padding: 0.2rem;
+    margin-bottom: 0.8rem;
+  }
+  .login-heading {
+    font-size: 1.25rem;
+    margin-bottom: 0.8rem;
+  }
+  .image-container {
+    width: 65%;
+  }
+}
+
+/* -------------------- DESKTOP OPTIMIZATION -------------------- */
+@media only screen and (min-width: 900px) {
+  .image-container {
+    width: 60%;
+  }
+}
